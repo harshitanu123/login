@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(241, 84, 136);
+}
+.container{
+margin: auto;
+width: 30%;
+background-color: white;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+height: 550px;
+position: absolute;
+
+
+}
+.container-2{
+    margin: auto;
+   
+    
+    
+    }
+.container-1{
+    margin: auto;
+    width: 40%;
+    background-color: white;
+ 
+    
+    }
+
+.heading{
+    height: 100px;
+
+    background-color:  rgba(241, 84, 136, 0.411);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+h1{
+    font-size: bold;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.avatar{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top:-50px;
+    left:calc(50% - 50px);
+}
+.wrapper{
+    padding: 70px 30px;
+
+}
+.wrapper p{
+    font-size: bold;
+
+}
+.wrapper input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.wrapper input[type="email"], input[type="password"],  input[type="text"]
+{
+ border: none;
+ border-bottom: 2px solid black;
+ outline: none;
+ height: 70px;
+
+}
+
+.wrapper .col-gen select{
+    background-color: pink;
+    display: flex;
+    width: 100%;
+    height: 30px;
+    margin: 10px;
+    
+    border: none;
+}
+
+.wrapper .col-gen  option{
+    width: 100%;
+    margin-top:40px;
+    background-color: pink;
+}
+/* 
+
+.wrapper select
+{
+ border: none;
+ border-bottom: 2px solid black;
+ outline: none;
+ height: 50px;
+} */
+
+.wrapper input[type="submit"]
+{
+    height: 50px;
+    background-color: rgba(241, 84, 136, 0.411) ;
+    font-size: bold;
+    color: black;
+    border: none;
+    outline: none;
+   margin-top: 30px;
+
+}
+.wrapper .btn:hover{
+ background-color: palevioletred;
+ cursor: pointer;
+ color: aliceblue;
+}
+
+
+table{
+padding: 14px;
+border: 2px solid black;
+background-color: aliceblue;
+top:50%;
+left:50%;
+transform: translate(-50%, -50%);
+margin-top: 100px;
+position:absolute
+
+}
+tr{
+padding: 30px;
+}
+th{
+padding: 30px;
+}
+td{
+padding: 30px;
+}
+.delete{
+background-color: greenyellow;
+width: 100px;
+
+}
+.delete:hover{
+    background-color: green;
+    
+    
+    }
+.update{
+background-color: red;
+width: 100px;
+
+}
+
+.logout{
+    
+    
+ float: right;
+ 
+
+}
+.btn{
+    width: 100px;
+    background-color: aqua;
+    height: 30px;
+}
+.btn:hover{
+    background-color: blue;
+}
+ #regist{
+    margin-left:30px;
+    
+}
